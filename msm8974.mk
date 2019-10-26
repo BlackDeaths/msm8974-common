@@ -87,10 +87,6 @@ PRODUCT_PACKAGES += \
 # Boot animation
 TARGET_BOOTANIMATION_HALF_RES := true
 
-# APEX
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/ld.config.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/swcodec/ld.config.txt
-
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
